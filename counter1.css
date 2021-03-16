@@ -1,11 +1,11 @@
 @property --num {
 	syntax: "<integer>";
-  initial-value: 0;
+  initial-value: 2700;
   inherits: false;
 }
 
 .counter1 {
-	animation: counter 5s 1 alternate ease-out;
+	animation: counter 4s 1 alternate ease-out;
 	counter-reset: num var(--num);
 	font: 900 40px system-ui;
 	padding: 2rem;
